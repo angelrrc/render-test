@@ -1,0 +1,29 @@
+GET http://localhost:3001/api/notes
+
+###
+
+PUT  http://localhost:3001/api/notes/6723cb0f1c281d5661f4d2b1
+Content-Type: application/json
+
+{
+    "content": "Prueba 1",
+    "important": true
+}
+
+###
+
+PUT  http://localhost:3001/api/notes/6724ae697551eca24fd3ecfc
+Content-Type: application/json
+
+{
+}
+
+###
+
+PUT  http://localhost:3001/api/notes/6724ae697551eca24fd3ecfc
+Content-Type: application/json
+
+{
+    "content": "Pru",
+    "important": true
+}
